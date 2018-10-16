@@ -13,7 +13,7 @@ total = win32evtlog.GetNumberOfEventLogRecords(hand)
 monitor_start = '2018-04-05 09:00:00'
 quit_flag = False
 
-# print(total)
+print(total)
 
 while True:
     events = win32evtlog.ReadEventLog(hand, flags, 0)
